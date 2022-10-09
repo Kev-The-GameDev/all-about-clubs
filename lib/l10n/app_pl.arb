@@ -1,0 +1,66 @@
+{
+    "loadingData": "ładowanie danych...",
+    "ranking": "Lista rankingowa",
+    "settings": "Ustawienia",
+    "sortedBy": "Posortowane według:",
+    "value": "Wartość rynkowa",
+    "million": "Milion",
+    "england": "Anglia",
+    "spanien": "Hiszpania",
+    "frankreich": "Francja",
+    "italien": "Włochy",
+    "deutschland": "Niemcy",
+    "niederlande": "Holandia",
+    "oesterreich": "Austria",
+    "about": "O",
+    "language": "Wybierz język...",
+    "darkMode": "Tryb ciemny",
+    "clubDetail_value": "Wartość rynkowa klubu {clubName} z {country} wynosi {value} milionów euro.",
+    "@clubDetail_value": {
+        "placeholders": {
+            "clubName": {
+                "type": "String",
+                "example": "Manchester United"
+            },
+            "country": {
+                "type": "String",
+                "example": "England"
+            },
+            "value": {
+                "type": "int",
+                "example": "500"
+            }
+        }
+    },
+    "trophiesSingle": "{clubName} udało się jak dotąd odnieść {european_titles} zwycięstwo na poziomie europejskim.",
+    "@trophiesSingle": {
+        "placeholders": {
+            "clubName": {
+                "type": "String",
+                "example": "Manchester United"
+            },
+            "european_titles": {
+                "type": "int",
+                "example": "3"
+            }
+        }
+    },
+    "trophiesMultipleOrNone": "{clubName} do tej pory zarządzał {european_titles} zwycięstwami na poziomie europejskim.",
+    "@trophiesMultipleOrNone": {
+        "placeholders": {
+            "clubName": {
+                "type": "String",
+                "example": "Manchester United"
+            },
+            "european_titles": {
+                "type": "int",
+                "example": "3"
+            }
+        }
+    },
+    "noData": "Brak danych",
+    "error_General": "Ups, coś poszło nie tak! Proszę spróbować ponownie!",
+    "error_Server": "Ups, błąd API! Proszę spróbować ponownie!",
+    "error_Network": "Ups, nie masz połączenia z internetem! Proszę spróbować ponownie!",
+    "tryAgain": "Spróbuj ponownie"
+}

@@ -1,0 +1,66 @@
+{
+    "loadingData": "Loading data...",
+    "ranking": "Ranking",
+    "settings": "Settings",
+    "sortedBy": "Sorted by:",
+    "value": "Market Vaue",
+    "million": "Million",
+    "england": "England",
+    "spanien": "Spain",
+    "frankreich": "France",
+    "italien": "Italy",
+    "deutschland": "Germany",
+    "niederlande": "Netherlands",
+    "oesterreich": "Austria",
+    "about": "About",
+    "language": "Choose language...",
+    "darkMode": "Dark Mode",
+    "clubDetail_value": "The club {clubName} from {country} has a market value of {value} million euros.",
+    "@clubDetail_value": {
+        "placeholders": {
+            "clubName": {
+                "type": "String",
+                "example": "Manchester United"
+            },
+            "country": {
+                "type": "String",
+                "example": "England"
+            },
+            "value": {
+                "type": "int",
+                "example": "500"
+            }
+        }
+    },
+    "trophiesSingle": "{clubName} has managed {european_titles} win at European level so far.",
+    "@trophiesSingle": {
+        "placeholders": {
+            "clubName": {
+                "type": "String",
+                "example": "Manchester United"
+            },
+            "european_titles": {
+                "type": "int",
+                "example": "3"
+            }
+        }
+    },
+    "trophiesMultipleOrNone": "{clubName} has managed {european_titles} wins at European level so far.",
+    "@trophiesMultipleOrNone": {
+        "placeholders": {
+            "clubName": {
+                "type": "String",
+                "example": "Manchester United"
+            },
+            "european_titles": {
+                "type": "int",
+                "example": "3"
+            }
+        }
+    },
+    "noData": "No data",
+    "error_General": "Ups, something went wrong! Please Try again!",
+    "error_Server": "Ups, API error! Please try again!",
+    "error_Network": "Ups, you have no internet connection! Please Try again!",
+    "tryAgain": "Try Again"
+}
